@@ -1,101 +1,39 @@
-# 💼 Job Application Tracker
+# Job Application Tracker
 
-A modern and responsive job application tracking web application built with JavaScript and Tailwind CSS. Users can manage job applications, track interview status, monitor rejected applications, and organize job opportunities through a clean interactive dashboard.
+A responsive job tracking web application for managing applications, monitoring interview progress, and organizing job opportunities through a clean dashboard interface.
 
-## 🚀 Live Website
-
+## Live Demo
 https://mohammedrakibcodes.github.io/job-application-tracker/
 
----
-
-## ✨ Features
-
-- Interactive job application dashboard
+## Key Features
 - Track interview and rejected applications
 - Dynamic job filtering system
-- Responsive modern UI
 - Real-time dashboard statistics
-- Delete job functionality
-- Status-based tab navigation
-- Clean card-based job layout
-- Empty-state handling
-- Modular JavaScript utility functions
+- Status-based navigation tabs
+- Delete application functionality
+- Responsive dashboard layout
+- Reusable utility functions
 
----
-
-## 🛠 Technologies Used
-
+## Tech Stack
 - HTML5
 - Tailwind CSS
 - JavaScript (ES6)
 - Font Awesome
-- Google Fonts
 
----
+## Project Structure
+The application uses modular utility functions to handle:
+- Job filtering
+- Status counting
+- Dynamic rendering
+- Data management
 
-## 📋 Core Functionalities
+## Run Locally
 
-### Job Status Management
+```bash
+git clone https://github.com/mohammedrakibcodes/job-application-tracker.git
 
-Users can update job application status as:
+cd job-application-tracker
+```
 
-- Interview
-- Rejected
-- Not Applied
-
-### Dashboard Analytics
-
-The application dynamically tracks:
-
-- Total Jobs
-- Interview Count
-- Rejected Count
-
-### Dynamic Filtering
-
-Users can filter jobs by:
-
-- All Jobs
-- Interview Jobs
-- Rejected Jobs
-
-### Delete System
-
-Jobs can be removed instantly from the application list.
-
-### Utility Helper Functions
-
-The project includes reusable helper functions for:
-
-- Finding jobs by ID
-- Removing jobs by ID
-- Counting interview jobs
-- Counting rejected jobs
-
----
-
-## 📱 Responsive Design
-
-Fully optimized for:
-
-- Mobile Devices
-- Tablets
-- Laptops
-- Desktop Screens
-
----
-
-## 🎨 UI Highlights
-
-- Minimal modern design
-- Clean typography
-- Interactive buttons and tabs
-- Organized dashboard layout
-- Responsive spacing and alignment
-- Professional job management interface
-
----
-
-## 👨‍💻 Author
-
+## Author
 Mohammed Rakib
