@@ -1,41 +1,101 @@
-Answers to Questions
+# 💼 Job Application Tracker
 
- 1. Difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll
+A modern and responsive job application tracking web application built with JavaScript and Tailwind CSS. Users can manage job applications, track interview status, monitor rejected applications, and organize job opportunities through a clean interactive dashboard.
 
-getElementById selects one element using an id.
+## 🚀 Live Website
 
-getElementsByClassName selects many elements using a class name.
+https://mohammedrakibcodes.github.io/job-application-tracker/
 
-querySelector selects the first element that matches a CSS selector.
+---
 
-querySelectorAll selects all elements that match a CSS selector.
+## ✨ Features
 
+- Interactive job application dashboard
+- Track interview and rejected applications
+- Dynamic job filtering system
+- Responsive modern UI
+- Real-time dashboard statistics
+- Delete job functionality
+- Status-based tab navigation
+- Clean card-based job layout
+- Empty-state handling
+- Modular JavaScript utility functions
 
- 2. How do you create and insert a new element into the DOM?
+---
 
-First, we create an element using document.createElement().
+## 🛠 Technologies Used
 
-Then we add text or content inside it.
+- HTML5
+- Tailwind CSS
+- JavaScript (ES6)
+- Font Awesome
+- Google Fonts
 
-After that, we insert it into the page using appendChild() or append().
+---
 
+## 📋 Core Functionalities
 
- 3. What is Event Bubbling?
+### Job Status Management
 
-Event bubbling means when we click on a child element, the event also goes to its parent element.
+Users can update job application status as:
 
-For example, if we click a button inside a div, the div can also receive the click event.
+- Interview
+- Rejected
+- Not Applied
 
+### Dashboard Analytics
 
- 4. What is Event Delegation in JavaScript? Why is it useful?
+The application dynamically tracks:
 
-Event delegation means adding one event listener to a parent element instead of adding many listeners to child elements.
+- Total Jobs
+- Interview Count
+- Rejected Count
 
-It is useful because it saves memory and works for elements that are created later using JavaScript.
+### Dynamic Filtering
 
+Users can filter jobs by:
 
- 5. What is the difference between preventDefault() and stopPropagation()?
+- All Jobs
+- Interview Jobs
+- Rejected Jobs
 
-preventDefault() stops the default action of an element, like stopping a form from submitting.
+### Delete System
 
-stopPropagation() stops the event from moving to parent elements.
+Jobs can be removed instantly from the application list.
+
+### Utility Helper Functions
+
+The project includes reusable helper functions for:
+
+- Finding jobs by ID
+- Removing jobs by ID
+- Counting interview jobs
+- Counting rejected jobs
+
+---
+
+## 📱 Responsive Design
+
+Fully optimized for:
+
+- Mobile Devices
+- Tablets
+- Laptops
+- Desktop Screens
+
+---
+
+## 🎨 UI Highlights
+
+- Minimal modern design
+- Clean typography
+- Interactive buttons and tabs
+- Organized dashboard layout
+- Responsive spacing and alignment
+- Professional job management interface
+
+---
+
+## 👨‍💻 Author
+
+Mohammed Rakib
