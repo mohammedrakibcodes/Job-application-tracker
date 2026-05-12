@@ -3,7 +3,7 @@
 A responsive job tracking web application for managing applications, monitoring interview progress, and organizing job opportunities through a clean dashboard interface.
 
 ## Live Demo
-https://mohammedrakibcodes.github.io/job-application-tracker/
+https://mohammedrakibcodes.github.io/Job-application-tracker/
 
 ## Key Features
 - Track interview and rejected applications
